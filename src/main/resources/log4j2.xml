@@ -16,7 +16,7 @@
   </Appenders>
 
   <Loggers>
-    <Logger name="org.eclipse.jetty" level="debug" />
+    <Logger name="org.eclipse.jetty" level="info" />
     <Root level="INFO">
       <AppenderRef ref="Console" />
       <AppenderRef ref="JavalinAppLogRolling" />
